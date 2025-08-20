@@ -2,8 +2,15 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Print("Hello world!")
+const (
+	Version = "1.0"
+)
 
-	fmt.Print("Скоро бот будет сохранять ссылки с тегами!")
+
+
+func main() {
+	fmt.Println("Bot version:", Version)
+
+	
+
 }
